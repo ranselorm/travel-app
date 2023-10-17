@@ -57,7 +57,7 @@ const Hero = () => {
       </div>
 
       <div className="relative flex-1 flex items-start">
-        <div className="relative z-20 w-[268px] gap-8 rounded-3xl bg-green-90 px-7 py-8">
+        <div className="z-20 w-[268px] gap-8 rounded-3xl bg-green-90 px-7 py-8">
           <div className="flex flex-col">
             <div className="flex justify-between mb-10">
               <p className="regular-16 text-gray-20 flex-col flex">
