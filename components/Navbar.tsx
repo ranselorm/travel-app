@@ -30,6 +30,15 @@ const Navbar = () => {
           variant="btn_dark_green"
         />
       </div>
+
+      <Image
+        src="/menu.svg"
+        width={32}
+        height={32}
+        alt="menu"
+        className="inline-block cursor-pointer lg:hidden"
+      />
+      
     </nav>
   );
 };
