@@ -9,7 +9,12 @@ const Features = () => {
       </h2>
       <div className="w-full flex flex-col lg:flex-row items-center lg:items-start">
         <div className="relative w-[440px] h-[800px] -mt-[50px] hidden xl:flex">
-          <Image src="/phone.png" alt="phone" fill className="object-contain" />
+          <Image
+            src="/phone.png"
+            alt="phone"
+            fill
+            className="object-contain feature-phone"
+          />
         </div>
         <div className="w-full">
           <div className="flex flex-wrap justify-between items-center ml-[50px]">
