@@ -4,7 +4,7 @@ import { FOOTER_LINKS, FOOTER_CONTACT_INFO, SOCIALS } from "@/constants";
 
 const Footer = () => {
   return (
-    <footer className="bg-green-300 h-[80vh] max-container padding-container relative z-30 py-[100px]">
+    <footer className="h-[100vh] max-container padding-container relative z-30 py-[100px]">
       <div className="flex flex-col lg:flex-row gap-y-10 justify-between items-start">
         <Link href="/">
           <Image src="/hilink-logo.svg" alt="Hilink" width={80} height={80} />
@@ -50,6 +50,10 @@ const Footer = () => {
             ))}
           </div>
         </div>
+      </div>
+      <div className="w-full bg-gray-20 h-[2px] mt-[50px] opacity-30" />
+      <div className="text-center mt-[50px] text-gray-30">
+        2023 Hilink | All rights reserved
       </div>
     </footer>
   );

@@ -30,6 +30,7 @@ const GetApp = () => {
           <Image src="/phones.png" alt="Phones" width={500} height={1000} />
         </div>
       </div>
+      <hr />
     </section>
   );
 };
