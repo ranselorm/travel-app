@@ -7,11 +7,11 @@ import GetApp from "@/components/GetApp";
 export default function Home() {
   return (
     <>
-      <Hero />
+      {/* <Hero />
       <Camp />
       <Guide />
       <Features />
-      <GetApp />
+      <GetApp /> */}
     </>
   );
 }
